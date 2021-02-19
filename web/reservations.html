@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="https://use.fontawesome.com/dcd44544d0.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DPWMM5CB5Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DPWMM5CB5Y');
+</script>
+    </head>
+    <body>
+
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Kuakai</a>
+            <a href="gallery.html">Gallery</a>        
+            <a href="menu.html">Menu</a>
+            <a class="active" href="reservations.html">Reservations</a>           
+            <a href="teaomaori.html">Te Ao Maori</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="roster/roster.html">Roster</href>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+
+        <div id="banner">
+            <img id="banner-image" src="images/reservations.png" alt="New Zealand Landscape">
+            
+        </div>
+
+        <div id="intro">
+            <h1>Reservations</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dui felis, 
+                molestie id cursus at, tempor sed erat. Sed vulputate libero venenatis lacus 
+                porta, euismod gravida elit posuere. Donec a ipsum ultrices, lobortis purus ac, 
+                porta est. Maecenas nec nibh orci. Nulla ut sagittis ipsum. Mauris quam justo, 
+                blandit vitae volutpat et, molestie nec tortor. Vestibulum lobortis, augue sed semper 
+                finibus, augue tortor luctus est, vel vehicula magna sapien sit amet ex. In hac habitasse 
+                platea dictumst. Fusce vel accumsan nisl.<br><br>
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dui felis, 
+                molestie id cursus at, tempor sed erat. Sed vulputate libero venenatis lacus 
+                porta, euismod gravida elit posuere. Donec a ipsum ultrices, lobortis purus ac, 
+                porta est. Maecenas nec nibh orci. Nulla ut sagittis ipsum. Mauris quam justo, 
+                blandit vitae volutpat et, molestie nec tortor. Vestibulum lobortis, augue sed semper 
+                finibus, augue tortor luctus est, vel vehicula magna sapien sit amet ex. In hac habitasse 
+                platea dictumst. Fusce vel accumsan nisl.<br><br>
+            </p>
+        
+
+        <h3>Reservation Form</h3>
+
+        <form id="myForm" action="#<title>The Huakai Restaurant</title>" method="post" enctype="text/plain" target="blank">
+            <p>
+                <label for="fname">Name:</label><br>
+                <input type="text" name="fname"  required>
+            </p>
+            <p>
+                <label for="lname">Surname:</label><br>
+                <input type="text" name="lname"  required>
+            </p>
+            <p>
+                <label for="phone">Phone Number:</label><br>
+                <input type="text" name="phone"  required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="eg: 123-123-1234"><br>
+                <small>Format: 123-123-1234</small>
+            </p>
+            <p>
+                <label for="date">Date:</label><br>
+                <input type="date" name="date" value=" " required>
+            </p>
+            <p>
+                <label for="time">Time:</label><br>
+                <input type="time" name="time" value=" " required>
+            </p>
+            <p>
+                <label for="party">Party Size:</label><br>
+                <input type="number" name="party" value=" " required min="1">
+            </p>
+            <input id="button" class="res" type="submit" value="Submit">
+            <br><br>
+        </form>
+
+        <p style="font-size: small; color: red;">
+
+        <span><strong>Privacy Statement: </strong></span<hr>
+                We collect personal information from you, including information about your: Name, Contact Information and location.
+                We collect your personal information in order to: Manage Reservations.
+                
+                Besides our staff, we share this information with: No one in order to keep you information as private as possible.
+
+                Providing some information is optional. If you choose not to enter email or phone number, we cannot guarantee your reservation.
+                We keep your information safe by storing it in password protected files and only reservation staff is able to access it.
+                We keep your information for the time leading up to your reservation at which point we securely destroy it by permanent deletion.
+                You have the right to ask for a copy of any personal information we hold about you, and to ask for it to be corrected if you think it 
+                is wrong. If you’d like to ask for a copy of your information, or to have it corrected, <br><br>please contact us at blah@blah.om, or 123 456 7890.<br><br>
+
+        </p>        
+
+    </div> 
+
+    <div class="icon-bar">
+        <a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook fa-xs" aria-hidden="true"></i></a> 
+        <a href="https://twitter.com/" target="blank"><i class="fa fa-twitter fa-xs" aria-hidden="true"></i></a> 
+        <a href="https://www.facebook.com/" target="blank"><i class="fa fa-instagram fa-xs" aria-hidden="true"></i></a> 
+        <a href="https://www.linkedin.com/" target="blank"><i class="fa fa-linkedin fa-xs" aria-hidden="true"></i></a> 
+    </div>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+
+    </body>
+</html>
